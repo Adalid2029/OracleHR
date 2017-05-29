@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Oracle HR</string>
+    <string name="name_edittext">Crear Base de Datos</string>
+    <string name="btn_ok_dialog">ok</string>
+    <string name="btn_cancel_dialog">CANCELAR</string>
+    <string name="stringEmpty">Ingrese Nombre</string>
+    <string name="create_database">Base de Datos Creada</string>
+    <string name="creating_database">Crear BD</string>
+</resources>

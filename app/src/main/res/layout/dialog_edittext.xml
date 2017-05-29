@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <com.developers.oraclehr.MyTextView
+        android:id="@+id/tv_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_edittext"
+        android:gravity="center"/>
+    <com.developers.oraclehr.MyEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre Base de Datos"
+        android:id="@+id/et_dialog"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        android:gravity="center">
+
+        <com.developers.oraclehr.MyButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_ok_dialog"
+            android:id="@+id/btn_ok"/>
+
+        <com.developers.oraclehr.MyButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_cancel_dialog"
+            android:id="@+id/btn_cancel"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
